@@ -1,0 +1,52 @@
+@import"../../base.scss";
+.video{
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
+    width: 265px;
+    
+}
+.video_top{
+    margin-bottom: 0.5rem;
+    position: relative;
+    img{
+    height: 150px;
+        width: 100%;
+    }
+    span{
+        position: absolute;
+        bottom: 0.3rem;
+        right: 0.3rem;
+        padding: 0.2rem;
+        background-color: #080808ec;
+        border-radius: 3px;
+        color: aliceblue;
+    }
+}
+.video_tittle{
+    margin-bottom: 0.1rem;
+
+}
+.video_chennel{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+p{
+    margin-bottom: 0;
+}
+}
+.video_details{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: #909090;
+}

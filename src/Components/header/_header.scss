@@ -1,0 +1,66 @@
+@import"../../base.scss";
+.header {
+    background-color: $black-primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    height: 10vh;
+    width: 100%;
+    border: #c6c6c6;
+}
+.header_logo{
+    width: 130px;
+    height: 40px;
+    background-image: url(./314-3149308_youtube-podcast-icon-link-youtube-new-logo-png-removebg-preview.png);
+    background-size: contain;
+    display: block;
+    margin-left: -5px;
+    background-repeat: no-repeat;
+}
+form{
+    flex: 0.55;
+    display: flex;
+    padding: 0.1rem;
+    margin: 0.1rem;
+    border-radius: 3px;
+    border: 1.2px ;
+    background-color: $black-secondary;
+    
+}
+input{
+    width: 100%;
+    border-color: #c6c6c6;
+    font-weight: 500;
+    background: transparent;
+    padding: 0.3rem;
+    color: $text-color;
+    &:focus{
+        outline: none;
+    }
+  
+}
+.header_icons{
+flex: 0.18;
+display: flex;
+justify-content: space-around;
+align-items: center;
+img{
+    border-radius: 50%;
+    width: 40px;
+    object-fit: contain;
+    margin-left: 5px;
+}
+
+}
+button{
+    padding: 0 1.25rem;
+    color: #333;
+background-color: hsl(0, 0%, 100%);
+    border-color: #c6c6c6;
+  
+}
+.header_mic{
+    padding: 0 1.1rem;
+    margin: 5px;
+}
